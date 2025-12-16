@@ -20,6 +20,11 @@ Google Gemini API is used to generate insights based on user input.
 - MIT App Inventor
 - Google Gemini API
 - Canva (UI & presentation)
+- 
+## API Key Disclaimer
+This project uses the Google Gemini API.
+The API key is NOT included in this repository for security reasons.
+Users must add their own API key while testing or deploying the app.
 
 ## Hackathon Submission
 This project was developed as part of an online hackathon and focuses on meaningful AI integration rather than complex code.
