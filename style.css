@@ -1,1 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  font-family: system-ui, sans-serif;
+}
 
+.app {
+  width: 90%;
+  max-width: 420px;
+  background: white;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+h1 {
+  margin: 0;
+}
+
+.tagline {
+  color: #666;
+  font-size: 14px;
+}
+
+.prompt {
+  margin-top: 18px;
+  padding: 12px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  height: 110px;
+  margin-top: 14px;
+  padd
