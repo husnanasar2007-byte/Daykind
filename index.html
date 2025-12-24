@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daykind</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Daykind</h1>
+    <p class="subtitle">
+      Daykind is an AI-based daily reflection and well-being app built using MIT App Inventor.
+    </p>
+
+    <section>
+      <h2>Problem</h2>
+      <p>Many people struggle to reflect on their emotions and daily experiences in a healthy way.</p>
+    </section>
+
+    <section>
+      <h2>Solution</h2>
+      <p>Daykind allows users to enter short daily reflections and receive meaningful AI-generated insights.</p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>Simple daily reflection input</li>
+        <li>AI-generated emotional insights</li>
+        <li>Calm, minimal user interface</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Daily Reflection</h2>
+      <textarea id="reflection" placeholder="Write how your day felt..."></textarea>
+      <button onclick="generateInsight()">Get Insight</button>
+      <p id="output"></p>
+    </section>
+
+    <section>
+      <h2>AI Usage</h2>
+      <p>Google Gemini API is used to generate insights based on user input.</p>
+    </section>
+
+    <section>
+      <h2>Tools & Technologies</h2>
+      <ul>
+        <li>MIT App Inventor</li>
+        <li>Google Gemini API</li>
+        <li>Canva (UI & presentation)</li>
+      </ul>
+    </section>
+
+    <section class="disclaimer">
+      <h2>API Key Disclaimer</h2>
+      <p>
+        This project uses the Google Gemini API. The API key is NOT included
+        for security reasons. Users must add their own API key while testing
+        or deploying the app.
+      </p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
