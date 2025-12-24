@@ -40,3 +40,16 @@ document.getElementById("submit").onclick = async () => {
 
   result.classList.remove("hidden");
 };
+
+function goToScreen2() {
+  document.getElementById("screen1").classList.remove("active");
+  document.getElementById("screen2").classList.add("active");
+}
+
+function goToScreen3() {
+  document.getElementById("screen2").classList.remove("active");
+  document.getElementById("screen3").classList.add("active");
+
+  document.getElementById("insight").textContent =
+    "It’s okay if today wasn’t your best. You showed up.";
+}
