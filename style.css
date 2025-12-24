@@ -39,3 +39,11 @@ textarea {
   height: 110px;
   margin-top: 14px;
   padd
+
+  .screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
