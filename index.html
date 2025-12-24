@@ -23,6 +23,34 @@
   </div>
 </div>
 
+  <div id="screen1" class="screen active">
+  <h2>Today's check-in</h2>
+
+  <label><input type="checkbox"> I slept well</label>
+  <label><input type="checkbox"> I worked out</label>
+  <label><input type="checkbox"> I drank enough water</label>
+  <label><input type="checkbox"> I studied</label>
+  <label><input type="checkbox"> I took a break</label>
+
+  <button onclick="goToScreen2()">Continue</button>
+</div>
+
+<div id="screen2" class="screen">
+  <h2>How are you feeling today?</h2>
+
+  <div class="moods">😞 😐 🙂 😌 😄</div>
+
+  <textarea placeholder="What helped or drained you today?"></textarea>
+
+  <button onclick="goToScreen3()">Get my insight</button>
+</div>
+
+<div id="screen3" class="screen">
+  <h2>Your insight</h2>
+  <p id="insight"></p>
+</div>
+  
+
 <script src="script.js"></script>
 </body>
 </html>
